@@ -1,0 +1,8 @@
+
+{
+  "name": "Gemini FluxDesign AI",
+  "description": "A world-class visual web editor powered by Gemini AI, allowing users to design, edit, and generate website sections through natural language and a professional UI.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
