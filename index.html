@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    <title>界面有形，体验无界 | 资深UI/UX设计师作品集</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            screens: {
+              '2xl': '1536px',
+              '3xl': '1920px',
+            },
+            colors: {
+              tech: {
+                blue: '#007AFF',
+                pink: '#FF2D55',
+                green: '#34C759',
+                cyan: '#5AC8FA'
+              },
+              dark: {
+                base: '#020617',
+                surface: '#0f172a'
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'PingFang SC', 'SF Pro', 'system-ui', 'sans-serif'],
+            },
+            backgroundImage: {
+              'digital-gradient': 'linear-gradient(135deg, #007AFF 0%, #FF2D55 100%)',
+              'neon-gradient': 'linear-gradient(90deg, #5AC8FA 0%, #34C759 100%)'
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      html { scroll-behavior: smooth; }
+      body { -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+      .glass {
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+      .dark .glass {
+        background: rgba(15, 23, 42, 0.6);
+        border: 1px solid rgba(255, 255, 255, 0.05);
+      }
+      .grid-pattern {
+        background-size: 50px 50px;
+        background-image: 
+          linear-gradient(to right, rgba(0, 122, 255, 0.05) 1px, transparent 1px),
+          linear-gradient(to bottom, rgba(0, 122, 255, 0.05) 1px, transparent 1px);
+      }
+      .dark .grid-pattern {
+        background-image: 
+          linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+          linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+      }
+      /* Hide scrollbar but keep functionality */
+      .no-scrollbar::-webkit-scrollbar { display: none; }
+      .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+
+  <link rel="stylesheet" href="/index.css">
+    <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "framer-motion": "https://esm.sh/framer-motion@^12.29.2",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "path": "https://esm.sh/path@^0.12.7",
+    "vite": "https://esm.sh/vite@^7.3.1",
+    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.2",
+    "@google/genai": "https://esm.sh/@google/genai@^1.38.0",
+    "url": "https://esm.sh/url@^0.11.4"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-DixDcPCL.js"></script>
+</head>
+  <body class="bg-white dark:bg-dark-base text-slate-900 dark:text-slate-100 transition-colors duration-300">
+    <div id="root"></div>
+</body>
+</html>
