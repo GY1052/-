@@ -7,7 +7,7 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: '翼党建',
     description: '智慧党建云平台，通过数字化手段提升基层党组织管理效率。',
     category: 'App界面',
-    imageUrl: './翼党建作品集.png',
+    imageUrl: 'public/翼党建.png',
     details: {
       background: '传统党建工作存在流程繁琐、数据统计难、互动性差等痛点。',
       thought: '采用严谨的“党建红”作为主色调，结合扁平化图标设计。',
@@ -20,7 +20,7 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: '贵阳荟康医院',
     description: '一站式医疗服务管理系统，优化患者就医流程与科室协作。',
     category: 'B端后台',
-    imageUrl: './医疗1.png',
+    imageUrl: 'public/贵阳荟康医院.png',
     details: {
       background: '医疗机构内部系统陈旧，患者挂号排队时间长。',
       thought: '以医疗蓝为核心视觉，强调安全与高效。',
@@ -33,7 +33,7 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: '环保大数据大屏',
     description: '实时环保监测可视化大屏，科技感与数据之美的结合。',
     category: '可视化大屏',
-    imageUrl: './p3.webp',
+    imageUrl: 'public/贵阳荟康医院1111.png',
     details: {
       background: '需要向监管部门直观展示全城的空气、水质实时监测数据。',
       thought: '采用深蓝色调背景配合荧光色数据点阵。',
