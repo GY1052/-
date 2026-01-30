@@ -12,7 +12,7 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
       background: '传统党建工作存在流程繁琐、数据统计难、互动性差等痛点。',
       thought: '采用严谨的“党建红”作为主色调，结合扁平化图标设计。',
       solution: '设计了三会一课在线预约、积分商城、党费缴纳等模块。',
-      result: '系统上线后，党员参与度提升了40%。'
+      result: '系统上线后ssjjjj党员参与度提升了40%。'
     }
   },
   {
